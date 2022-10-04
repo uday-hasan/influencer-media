@@ -1,0 +1,58 @@
+@media screen and (max-width:688px) {
+
+    /****** Navbar ******/
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 15px;
+        background-color: aqua;
+    }
+
+    nav .nav-menu ul {
+        display: none;
+    }
+
+    /****** FFront News***** */
+    .front-news {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        /* margin: 30px 75px 15px 90px; */
+        padding: 5px 15px;
+    }
+
+    .front-news .front-news-img {
+        margin-top: 10px;
+        width: 50%;
+    }
+
+    /****** Top Collection ******/
+    .collections {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 20px;
+        grid-column-gap: 10px;
+    }
+
+    /* Other Site */
+    .other-site {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .other-site-detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
